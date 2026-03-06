@@ -1,0 +1,382 @@
+﻿
+> shofy-next-js@0.1.0 lint
+> next lint
+
+
+./src/app/capabilities/CapabilitiesClient.jsx
+6:63  Warning: 'FaClipboardCheck' is defined but never used.  no-unused-vars
+6:63  Warning: 'FaClipboardCheck' is defined but never used.  @typescript-eslint/no-unused-vars
+6:93  Warning: 'FaCalendarAlt' is defined but never used.  no-unused-vars
+6:93  Warning: 'FaCalendarAlt' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/capabilities/page.jsx
+3:8  Warning: 'SEO' is defined but never used.  no-unused-vars
+3:8  Warning: 'SEO' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/fabric/page.jsx
+100:47  Warning: 'collection' is defined but never used.  no-unused-vars
+100:47  Warning: 'collection' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+100:59  Warning: 'count' is defined but never used.  no-unused-vars
+100:59  Warning: 'count' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+
+./src/app/fabric/[slug]/ProductDetailsClient.jsx
+10:39  Warning: 'useGetSingleNewProductByIdQuery' is defined but never used.  no-unused-vars
+10:39  Warning: 'useGetSingleNewProductByIdQuery' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/product-details/page.jsx
+11:7  Warning: 'StructuredDataScripts' is assigned a value but never used.  no-unused-vars
+11:7  Warning: 'StructuredDataScripts' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/sitemap/SitemapPageClient.jsx
+284:9  Warning: 'copyToClipboard' is assigned a value but never used.  no-unused-vars
+284:9  Warning: 'copyToClipboard' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+319:9  Warning: 'getFileSize' is assigned a value but never used.  no-unused-vars
+319:9  Warning: 'getFileSize' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/sitemap.js
+18:11  Warning: 'stats' is assigned a value but never used.  no-unused-vars
+18:11  Warning: 'stats' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/blog/blog-grid/modern-blog-card.jsx
+95:9  Warning: 'category' is assigned a value but never used.  no-unused-vars
+95:9  Warning: 'category' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/blog-details/blog-details-area.jsx
+2:17  Warning: 'useEffect' is defined but never used.  no-unused-vars
+2:17  Warning: 'useEffect' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/breadcrumb/about-breadcrumb.jsx
+7:7  Warning: Custom fonts not added in `pages/_document.js` will only load for a single page. This is discouraged. See: https://nextjs.org/docs/messages/no-page-custom-font  @next/next/no-page-custom-font
+
+./src/components/breadcrumb/contact-breadcrumb.jsx
+7:7  Warning: Custom fonts not added in `pages/_document.js` will only load for a single page. This is discouraged. See: https://nextjs.org/docs/messages/no-page-custom-font  @next/next/no-page-custom-font
+
+./src/components/cart-wishlist/cart-area.jsx
+45:9  Warning: 'handleClearCart' is assigned a value but never used.  no-unused-vars
+45:9  Warning: 'handleClearCart' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/cart-wishlist/cart-item-new.jsx
+419:9  Warning: 'ratingCount' is assigned a value but never used.  no-unused-vars
+419:9  Warning: 'ratingCount' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+420:9  Warning: 'ratingValue' is assigned a value but never used.  no-unused-vars
+420:9  Warning: 'ratingValue' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/cart-wishlist/cart-item.jsx
+12:10  Warning: 'buildSearchPredicate' is defined but never used.  no-unused-vars
+12:10  Warning: 'buildSearchPredicate' is defined but never used.  @typescript-eslint/no-unused-vars
+110:34  Warning: The ref value 'rowRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'rowRef.current' to a variable inside the effect, and use that variable in the cleanup function.  react-hooks/exhaustive-deps
+125:7  Warning: 'TrashIcon' is assigned a value but never used.  no-unused-vars
+125:7  Warning: 'TrashIcon' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+172:20  Warning: 'setHydrated' is assigned a value but never used.  no-unused-vars
+172:20  Warning: 'setHydrated' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+276:9  Warning: 'lineTotal' is assigned a value but never used.  no-unused-vars
+276:9  Warning: 'lineTotal' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+342:22  Warning: '_u' is assigned a value but never used.  no-unused-vars
+342:22  Warning: '_u' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/cart-wishlist/wishlist-area.jsx
+5:10  Warning: 'Plus' is defined but never used.  no-unused-vars
+5:10  Warning: 'Plus' is defined but never used.  @typescript-eslint/no-unused-vars
+11:11  Warning: 'userId' is assigned a value but never used.  no-unused-vars
+11:11  Warning: 'userId' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/cart-wishlist/wishlist-item.jsx
+104:34  Warning: The ref value 'rowRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'rowRef.current' to a variable inside the effect, and use that variable in the cleanup function.  react-hooks/exhaustive-deps
+165:13  Warning: 'cleanSlug' is assigned a value but never used.  no-unused-vars
+165:13  Warning: 'cleanSlug' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+251:6  Warning: React Hook useMemo has unnecessary dependencies: 'pathname' and 'searchParams'. Either exclude them or remove the dependency array.  react-hooks/exhaustive-deps
+448:6  Warning: React Hook useMemo has an unnecessary dependency: '_id'. Either exclude it or remove the dependency array.  react-hooks/exhaustive-deps
+530:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/ErrorBoundary.jsx
+11:35  Warning: 'error' is defined but never used.  no-unused-vars
+11:35  Warning: 'error' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+
+./src/components/forms/contact-form.jsx
+423:9  Warning: 'inputFocusStyle' is assigned a value but never used.  no-unused-vars
+423:9  Warning: 'inputFocusStyle' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+436:9  Warning: 'pillGroupStyle' is assigned a value but never used.  no-unused-vars
+436:9  Warning: 'pillGroupStyle' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+457:9  Warning: 'activePillStyle' is assigned a value but never used.  no-unused-vars
+457:9  Warning: 'activePillStyle' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/forms/header-search-form.jsx
+4:8  Warning: 'NiceSelect' is defined but never used.  no-unused-vars
+4:8  Warning: 'NiceSelect' is defined but never used.  @typescript-eslint/no-unused-vars
+11:9  Warning: 'selectCategoryHandle' is assigned a value but never used.  no-unused-vars
+11:9  Warning: 'selectCategoryHandle' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/login-register/login-area.tsx
+70:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/login-register/register-area.tsx
+63:5  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/order/order-area.jsx
+12:10  Warning: 'LOGO_WEB_URL' is defined but never used.  no-unused-vars
+12:10  Warning: 'LOGO_WEB_URL' is defined but never used.  @typescript-eslint/no-unused-vars
+29:7  Warning: 'RESOLVED_LOGO_URL' is assigned a value but never used.  no-unused-vars
+29:7  Warning: 'RESOLVED_LOGO_URL' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+36:7  Warning: 'BRAND_YELLOW' is assigned a value but never used.  no-unused-vars
+36:7  Warning: 'BRAND_YELLOW' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+38:7  Warning: 'BORDER' is assigned a value but never used.  no-unused-vars
+38:7  Warning: 'BORDER' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+39:7  Warning: 'ROW_ALT' is assigned a value but never used.  no-unused-vars
+39:7  Warning: 'ROW_ALT' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+40:7  Warning: 'SOFT' is assigned a value but never used.  no-unused-vars
+40:7  Warning: 'SOFT' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+43:7  Warning: 'HEADER_H' is assigned a value but never used.  no-unused-vars
+43:7  Warning: 'HEADER_H' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+44:7  Warning: 'FOOTER_H' is assigned a value but never used.  no-unused-vars
+44:7  Warning: 'FOOTER_H' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+51:7  Warning: 'pdfStyles' is assigned a value but never used.  no-unused-vars
+51:7  Warning: 'pdfStyles' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+173:36  Warning: 'userErr' is assigned a value but never used.  no-unused-vars
+173:36  Warning: 'userErr' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+291:21  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/product-details/details-tab-nav.jsx
+16:7  Warning: 'stripHtml' is assigned a value but never used.  no-unused-vars
+16:7  Warning: 'stripHtml' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+244:9  Warning: The 'full' logical expression could make the dependencies of useMemo Hook (at line 279) change on every render. To fix this, wrap the initialization of 'full' in its own useMemo() Hook.  react-hooks/exhaustive-deps
+
+./src/components/product-details/details-thumb-wrapper.jsx
+108:3  Warning: 'imageURLs' is defined but never used.  no-unused-vars
+108:3  Warning: 'imageURLs' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+241:6  Warning: React Hook useMemo has an unnecessary dependency: 'img'. Either exclude it or remove the dependency array.  react-hooks/exhaustive-deps
+326:6  Warning: React Hook useMemo has unnecessary dependencies: 'altTextImage1', 'altTextImage2', 'altTextImage3', 'altTextVideo', and 'productName'. Either exclude them or remove the dependency array.  react-hooks/exhaustive-deps
+876:17  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/product-details/details-wrapper.jsx
+10:33  Warning: 'FaFileAlt' is defined but never used.  no-unused-vars
+10:33  Warning: 'FaFileAlt' is defined but never used.  @typescript-eslint/no-unused-vars
+268:9  Warning: 'ratingCount' is assigned a value but never used.  no-unused-vars
+268:9  Warning: 'ratingCount' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+298:13  Warning: 'originalText' is assigned a value but never used.  no-unused-vars
+298:13  Warning: 'originalText' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+320:22  Warning: 'message' is defined but never used.  no-unused-vars
+320:22  Warning: 'message' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+413:6  Warning: React Hook useMemo has a duplicate dependency: 'category'. Either omit it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./src/components/product-details/product-details-content.jsx
+179:9  Warning: 'seoData' is assigned a value but never used.  no-unused-vars
+179:9  Warning: 'seoData' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/product-details/related-products.jsx
+81:11  Warning: 'isNokia' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+82:11  Warning: 'isMajestica' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/products/fashion/product-item.jsx
+124:9  Warning: 'rainbowId' is assigned a value but never used.  no-unused-vars
+124:9  Warning: 'rainbowId' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+208:6  Warning: React Hook useMemo has a missing dependency: 'valueToUrlString'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+545:13  Warning: 'search' is defined but never used.  no-unused-vars
+545:13  Warning: 'search' is defined but never used.  @typescript-eslint/no-unused-vars
+545:20  Warning: 'visibility' is defined but never used.  no-unused-vars
+545:20  Warning: 'visibility' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/profile/UserProfile.jsx
+9:18  Warning: 'FaTrash' is defined but never used.  no-unused-vars
+9:18  Warning: 'FaTrash' is defined but never used.  @typescript-eslint/no-unused-vars
+56:7  Warning: 'writeUserInfoCookiePreserving' is assigned a value but never used.  no-unused-vars
+56:7  Warning: 'writeUserInfoCookiePreserving' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+69:7  Warning: 'diffPayload' is assigned a value but never used.  no-unused-vars
+69:7  Warning: 'diffPayload' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+96:7  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+261:10  Warning: 'updateProfile' is assigned a value but never used.  no-unused-vars
+261:10  Warning: 'updateProfile' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+358:9  Warning: 'normalizeUserPayload' is assigned a value but never used.  no-unused-vars
+358:9  Warning: 'normalizeUserPayload' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+540:6  Warning: React Hook useEffect has a missing dependency: 'countries'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+1144:29  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+1200:27  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+1484:10  Warning: 'AlignedField' is defined but never used.  no-unused-vars
+1484:10  Warning: 'AlignedField' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/seo/StructuredDataScripts.jsx
+2:21  Warning: 'useState' is defined but never used.  no-unused-vars
+2:21  Warning: 'useState' is defined but never used.  @typescript-eslint/no-unused-vars
+15:28  Warning: 'isLoading' is assigned a value but never used.  no-unused-vars
+15:28  Warning: 'isLoading' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+18:9  Warning: 'office' is assigned a value but never used.  no-unused-vars
+18:9  Warning: 'office' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/shop/EnhancedShopSidebarFilters.jsx
+17:7  Warning: 'UI' is assigned a value but never used.  no-unused-vars
+17:7  Warning: 'UI' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/shop/shop-content.jsx
+151:9  Warning: The 'pv' conditional could make the dependencies of useMemo Hook (at line 185) change on every render. To fix this, wrap the initialization of 'pv' in its own useMemo() Hook.  react-hooks/exhaustive-deps
+
+./src/components/shop/shop-filter/category-filter.jsx
+11:38  Warning: 'shop_right' is assigned a value but never used.  no-unused-vars
+11:38  Warning: 'shop_right' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/shop/shop-filter/color-filter.jsx
+12:35  Warning: 'shop_right' is assigned a value but never used.  no-unused-vars
+12:35  Warning: 'shop_right' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/shop/shop-filter/product-brand.jsx
+11:36  Warning: 'shop_right' is assigned a value but never used.  no-unused-vars
+11:36  Warning: 'shop_right' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/shop/shop-filter/top-rated-products.jsx
+84:13  Warning: 'ratingCount' is assigned a value but never used.  no-unused-vars
+84:13  Warning: 'ratingCount' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/shop/shop-hidden-sidebar-area.jsx
+13:31  Warning: 'currPage' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/shop/shop-list-item.jsx
+11:10  Warning: 'mapProductFields' is defined but never used.  no-unused-vars
+11:10  Warning: 'mapProductFields' is defined but never used.  @typescript-eslint/no-unused-vars
+11:28  Warning: 'getStructureName' is defined but never used.  no-unused-vars
+11:28  Warning: 'getStructureName' is defined but never used.  @typescript-eslint/no-unused-vars
+11:46  Warning: 'getContentName' is defined but never used.  no-unused-vars
+11:46  Warning: 'getContentName' is defined but never used.  @typescript-eslint/no-unused-vars
+11:62  Warning: 'getFinishName' is defined but never used.  no-unused-vars
+11:62  Warning: 'getFinishName' is defined but never used.  @typescript-eslint/no-unused-vars
+32:7  Warning: 'getSessionUser' is assigned a value but never used.  no-unused-vars
+32:7  Warning: 'getSessionUser' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/shop/shop-right-area.jsx
+1:17  Warning: 'useMemo' is defined but never used.  no-unused-vars
+1:17  Warning: 'useMemo' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/shop/shop-top-right.jsx
+25:6  Warning: React Hook useEffect has missing dependencies: 'performSearch' and 'searchValue'. Either include them or remove the dependency array.  react-hooks/exhaustive-deps
+86:6  Warning: React Hook useEffect has missing dependencies: 'onSearchResults', 'performSearch', and 'router'. Either include them or remove the dependency array. If 'onSearchResults' changes too often, find the parent component that defines it and wrap that definition in useCallback.  react-hooks/exhaustive-deps
+
+./src/hooks/use-cart-info.js
+53:11  Warning: The 'cartItems' conditional could make the dependencies of useMemo Hook (at line 102) change on every render. Move it inside the useMemo callback. Alternatively, wrap the initialization of 'cartItems' in its own useMemo() Hook.  react-hooks/exhaustive-deps
+
+./src/hooks/useFieldBasedFilters.js
+2:34  Warning: 'useGetProductsByFieldValueQuery' is defined but never used.  no-unused-vars
+2:34  Warning: 'useGetProductsByFieldValueQuery' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/layout/headers/header-2.jsx
+3:46  Warning: 'useMemo' is defined but never used.  no-unused-vars
+3:46  Warning: 'useMemo' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/layout/headers/header-3.jsx
+24:9  Warning: 'dispatch' is assigned a value but never used.  no-unused-vars
+24:9  Warning: 'dispatch' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/layout/headers/header-4.jsx
+24:9  Warning: 'dispatch' is assigned a value but never used.  no-unused-vars
+24:9  Warning: 'dispatch' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/layout/headers/header-com/header-main-right.jsx
+42:9  Warning: 'dispatch' is assigned a value but never used.  no-unused-vars
+42:9  Warning: 'dispatch' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/layout/headers/header-com/menus.jsx
+14:3  Warning: 'FaRocket' is defined but never used.  no-unused-vars
+14:3  Warning: 'FaRocket' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/layout/headers/header.jsx
+9:8  Warning: 'logo' is defined but never used.  no-unused-vars
+9:8  Warning: 'logo' is defined but never used.  @typescript-eslint/no-unused-vars
+26:9  Warning: 'dispatch' is assigned a value but never used.  no-unused-vars
+26:9  Warning: 'dispatch' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/redux/features/auth/authApi.js
+217:25  Warning: 'userId' is assigned a value but never used.  no-unused-vars
+217:25  Warning: 'userId' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/redux/features/cartApi.js
+94:30  Warning: 'productId' is defined but never used.  no-unused-vars
+94:30  Warning: 'productId' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+94:41  Warning: 'quantity' is defined but never used.  no-unused-vars
+94:41  Warning: 'quantity' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+96:17  Warning: 'result' is assigned a value but never used.  no-unused-vars
+96:17  Warning: 'result' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+130:30  Warning: 'productId' is defined but never used.  no-unused-vars
+130:30  Warning: 'productId' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+145:15  Warning: 'qs' is assigned a value but never used.  no-unused-vars
+145:15  Warning: 'qs' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+173:30  Warning: 'productId' is defined but never used.  no-unused-vars
+173:30  Warning: 'productId' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+173:41  Warning: 'quantity' is defined but never used.  no-unused-vars
+173:41  Warning: 'quantity' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+175:17  Warning: 'result' is assigned a value but never used.  no-unused-vars
+175:17  Warning: 'result' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/redux/features/newProductApi.js
+119:15  Warning: 'id' is defined but never used.  no-unused-vars
+119:15  Warning: 'id' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+330:15  Warning: 'collectionId' is defined but never used.  no-unused-vars
+330:15  Warning: 'collectionId' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+342:19  Warning: 'originalCount' is assigned a value but never used.  no-unused-vars
+342:19  Warning: 'originalCount' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+565:32  Warning: 'meta' is defined but never used.  no-unused-vars
+565:32  Warning: 'meta' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+565:38  Warning: 'arg' is defined but never used.  no-unused-vars
+565:38  Warning: 'arg' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+607:17  Warning: 'sample' is assigned a value but never used.  no-unused-vars
+607:17  Warning: 'sample' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+618:42  Warning: 'meta' is defined but never used.  no-unused-vars
+618:42  Warning: 'meta' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+618:48  Warning: 'arg' is defined but never used.  no-unused-vars
+618:48  Warning: 'arg' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+635:32  Warning: 'meta' is defined but never used.  no-unused-vars
+635:32  Warning: 'meta' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+635:38  Warning: 'arg' is defined but never used.  no-unused-vars
+635:38  Warning: 'arg' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+698:42  Warning: 'meta' is defined but never used.  no-unused-vars
+698:42  Warning: 'meta' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+698:48  Warning: 'arg' is defined but never used.  no-unused-vars
+698:48  Warning: 'arg' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+714:32  Warning: 'meta' is defined but never used.  no-unused-vars
+714:32  Warning: 'meta' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+714:38  Warning: 'arg' is defined but never used.  no-unused-vars
+714:38  Warning: 'arg' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+777:42  Warning: 'meta' is defined but never used.  no-unused-vars
+777:42  Warning: 'meta' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+777:48  Warning: 'arg' is defined but never used.  no-unused-vars
+777:48  Warning: 'arg' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+
+./src/redux/features/topicPageApi.js
+28:15  Warning: 'name' is defined but never used.  no-unused-vars
+28:15  Warning: 'name' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+51:15  Warning: 'slug' is defined but never used.  no-unused-vars
+51:15  Warning: 'slug' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+
+./src/redux/features/userApi.js
+8:33  Warning: 'getState' is defined but never used.  no-unused-vars
+8:33  Warning: 'getState' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+
+./src/utils/homePageStructuredData.js
+11:76  Warning: 'siteSettings' is defined but never used.  no-unused-vars
+11:76  Warning: 'siteSettings' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+
+./src/utils/productPdf.js
+980:40  Warning: 'imgSize' is assigned a value but never used.  no-unused-vars
+980:40  Warning: 'imgSize' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+1311:11  Warning: 'availableWidth' is assigned a value but never used.  no-unused-vars
+1311:11  Warning: 'availableWidth' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+1331:35  Warning: 'index' is defined but never used.  no-unused-vars
+1331:35  Warning: 'index' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+1354:34  Warning: 'index' is defined but never used.  no-unused-vars
+1354:34  Warning: 'index' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+1372:69  Warning: 'index' is defined but never used.  no-unused-vars
+1372:69  Warning: 'index' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+1414:13  Warning: 'totalPages' is assigned a value but never used.  no-unused-vars
+1414:13  Warning: 'totalPages' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+1417:15  Warning: 'currentPage' is assigned a value but never used.  no-unused-vars
+1417:15  Warning: 'currentPage' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+1418:15  Warning: 'productsOnThisPage' is assigned a value but never used.  no-unused-vars
+1418:15  Warning: 'productsOnThisPage' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/utils/searchHub.ts
+14:43  Warning: 'q' is defined but never used.  no-unused-vars
+
+./src/utils/searchMiddleware.ts
+5:7  Warning: 'item' is defined but never used.  no-unused-vars
+124:13  Warning: '_item' is defined but never used.  no-unused-vars
+
+./src/utils/websiteStructuredData.js
+7:60  Warning: 'siteSettings' is defined but never used.  no-unused-vars
+7:60  Warning: 'siteSettings' is defined but never used. Allowed unused args must match /^_/u.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules

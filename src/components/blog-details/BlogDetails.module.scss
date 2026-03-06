@@ -1,0 +1,415 @@
+.blogDetailsArea {
+  background: #f8f9fa;
+  padding: 0 0 2rem 0; // Remove top padding, keep bottom padding
+  position: relative; // Add this to ensure proper stacking context
+  overflow: visible; // Ensure sticky elements can work
+  margin: 0; // Ensure no margin
+  margin-top: -1px; // Overlap any potential gap from header
+  
+  // Reset any potential spacing issues
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+
+.heroSection {
+  background: 
+    linear-gradient(rgba(17, 35, 56, 0.8), rgba(17, 35, 56, 0.9)),
+    url('/assets/img/blog/blog-bg.jpg') center/cover no-repeat;
+  padding: 80px 0 60px 0;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  margin-top: 0; // Remove top margin
+  margin-bottom: 4rem;
+  box-sizing: border-box;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+    padding: 60px 0 45px 0;
+    margin-bottom: 3rem;
+    
+    .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  color: white; // Keep white for hero as it's on dark background
+  font-family: 'Jost', sans-serif;
+  letter-spacing: -0.01em;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    font-size: 2.8rem;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 2.2rem;
+  }
+}
+
+.blogTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4a5568; // Changed from pure black to grey
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.blogMeta {
+  font-size: 1rem;
+  color: #718096;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+.shareIcon {
+  background: #667eea;
+  border: none;
+  border-radius: 8px;
+  width: 40px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  
+  &:hover {
+    background: #5a67d8;
+  }
+}
+
+.contentGrid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 3rem;
+  align-items: start; // This ensures both columns start at the top
+  position: relative; // Ensure proper stacking context for sticky
+  overflow: visible; // Allow sticky elements to work
+
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.blogContent {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #2d3748;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 2rem 0 1rem 0;
+    color: #4a5568; // Changed from pure black to grey
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  ul, ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    color: #667eea;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.heroImageContainer {
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f7fafc;
+  aspect-ratio: 16/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.inlineImageContainer {
+  margin: 2rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f7fafc;
+  position: relative;
+}
+
+.inlineImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.imagePlaceholderOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(102, 126, 234, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+}
+
+.sidebar {
+  width: 100%;
+  height: fit-content;
+  // No sticky positioning - normal scroll behavior
+}
+
+.authorSidebarSection {
+  margin-bottom: 2rem;
+  
+  // Override author profile styles for sidebar
+  :global(.author-profile) {
+    max-width: 100% !important;
+    padding: 1.5rem !important; // Reduced padding
+    margin: 0 !important;
+    
+    :global(.author-content) {
+      text-align: center;
+    }
+    
+    :global(.author-avatar) {
+      width: 80px !important; // Smaller avatar
+      height: 80px !important;
+      margin: 0 auto 1rem !important; // Reduced margin
+    }
+    
+    :global(.author-image),
+    :global(.author-initials) {
+      width: 80px !important;
+      height: 80px !important;
+    }
+    
+    :global(.author-initials) {
+      font-size: 24px !important; // Smaller font
+    }
+    
+    :global(.author-name) {
+      font-size: 1.5rem !important; // Smaller name
+      margin: 0 0 0.5rem 0 !important;
+      color: #4a5568 !important; // Make author name grey too
+    }
+    
+    :global(.author-title) {
+      font-size: 0.875rem !important; // Smaller title
+      margin: 0 0 1rem 0 !important;
+    }
+    
+    :global(.author-description) {
+      margin-bottom: 1rem !important;
+      
+      p {
+        font-size: 0.875rem !important; // Smaller description
+        line-height: 1.5 !important;
+      }
+    }
+    
+    :global(.author-signature) {
+      margin-top: 1rem !important;
+      padding-top: 1rem !important;
+      
+      :global(.signature-text) {
+        font-size: 1.25rem !important; // Smaller signature
+      }
+    }
+  }
+}
+
+.popularTagsCard {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+  .cardTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #4a5568; // Changed from pure black to grey
+    margin-bottom: 1rem;
+  }
+
+  .tagsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    background: #f7fafc;
+    color: #4a5568;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: #667eea;
+      color: white;
+    }
+  }
+}
+
+.quoteBlock {
+  background: #667eea;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  text-align: center;
+  position: relative;
+
+  p {
+    font-size: 1.25rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1rem !important;
+    font-style: italic !important;
+    color: white !important;
+  }
+
+  cite {
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.9;
+
+    &::before {
+      content: '— ';
+    }
+  }
+}
+
+.navigation {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.backButtonContainer {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #f8f9fa;
+  color: #4a5568;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    transform: translateX(-2px);
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+  }
+  
+  svg {
+    transition: transform 0.2s ease;
+  }
+  
+  &:hover svg {
+    transform: translateX(-2px);
+  }
+  
+  @media (max-width: 768px) {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
